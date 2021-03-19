@@ -1,17 +1,26 @@
 GEM
   remote: http://rubygems.org/
   specs:
-    activesupport (2.2.2)
+    activesupport (6.1.3)
+      concurrent-ruby (~> 1.0, >= 1.0.2)
+      i18n (>= 1.6, < 2)
+      minitest (>= 5.1)
+      tzinfo (~> 2.0)
+      zeitwerk (~> 2.3)
     amqp (0.6.7)
       eventmachine (>= 0.12.4)
+    concurrent-ruby (1.1.8)
     crack (0.1.8)
     daemons (1.1.0)
     eventmachine (0.12.10)
     httparty (0.7.4)
       crack (= 0.1.8)
+    i18n (1.8.9)
+      concurrent-ruby (~> 1.0)
     json (1.5.1)
     mash (0.1.1)
     mime-types (1.15)
+    minitest (5.14.4)
     oauth (0.4.4)
     rack (1.2.1)
     ruby-hmac (0.4.0)
@@ -28,16 +37,19 @@ GEM
       httparty
       mime-types
     tmail (1.2.3.1)
+    tzinfo (2.0.4)
+      concurrent-ruby (~> 1.0)
     xml-simple (1.0.11)
     xmpp4r (0.5)
     xmpp4r-simple (0.8.4)
       xmpp4r (>= 0.3.0)
+    zeitwerk (2.4.2)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-  activesupport (= 2.2.2)
+  activesupport (= 6.1.3)
   amqp (= 0.6.7)
   httparty (= 0.7.4)
   json (~> 1.5.1)
